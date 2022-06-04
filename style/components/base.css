@@ -3,9 +3,13 @@
 }
 
 :root {
-  --basecolor: white;
+  background-color: #f2ca6b;
+  color: #794d91;
+}
+button {
+  color: #794d91;
 }
 
 h1 {
-  color: blue;
+  color: #794d91;
 }
