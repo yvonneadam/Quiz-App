@@ -4,10 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Quiz App/Profile</title>
   </head>
+
   <body>
-    <h1>Profile</h1>
+    <header>
+      <h1>Profile</h1>
+    </header>
+    
+    <main>
+      <section>
+        <div class="thatsmepicture">
+          <i class="fa-solid fa-id-badge"></i>
+        </div>
+        <div class="Thatsallaboutyourself">
+          <label for="Thatsallaboutyourself">That's all about yourself. Tell us a fun fact:</label>
+          <input type="text" id="Thatsallaboutyourself">
+        </div>
+        <p>Choose some tags about your skills:</p>
+        <ul>
+            <li>tag  1</li>
+            <li>tag  2</li>
+            <li>tag  3</li>
+            <li>tag  4</li>
+        </ul>
+        <button>Logout</button>
+      </section>
+    </main>
+
+    <footer class="navigation">
+      <nav class="navigation-container">
+        <a href="./index.html"class="navigation-link" aria-label="home">
+          <i class="fa-regular fa-heart"></i></button>
+        </a>
+        <a href="./bookmark.html"class="navigation-link" aria-label="bookmark">
+          <i class="fa-regular fa-bookmark"></i>
+        </a>
+        <a href="./input.html"class="navigation-link" aria-label="create">
+          <i class="fa-regular fa-square-plus"></i>
+        </a>
+        <a href="./profile.html" class="navigation-link"aria-label="profile">
+          <i class="fa-solid fa-user"></i>
+        </a>
+      </nav>
+    </footer>
   </body>
 </html>

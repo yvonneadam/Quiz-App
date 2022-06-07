@@ -1,0 +1,29 @@
+.navigation {
+  border-width: 1px;
+  border-style: solid dotted;
+  border-color: #6d4582;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5cc6c;
+}
+
+.navigation-container {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-link {
+  color: #6d4582;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #6d4582;
+  width: 100%;
+}
+
+.navigation-link:last-child {
+  border-right-width: 0px;
+}

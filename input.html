@@ -4,13 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
     <link rel="stylesheet" href="style.css" />
-    <title>Quiz App_page create</title>
+    <title>Quiz App</title>
   </head>
+
   <body>
     <header>
       <h1>Create</h1>
     </header>
-    <main></main>
+
+    <main>
+      <form action="" method="get" class="form-example">
+        <div class="form-example">
+          <label for="ownquestionbox">Add your question here: </label>
+          <input type="text" name="ownquestionbox" id="ownquestionbox" required>
+        </div>
+        <div class="form-example">
+          <label for="email">Add your answer here: </label>
+          <input type="text" name="ownanswerbox" id="ownanswerbox" required>
+        </div>
+        <div class="form-example">
+          <label for="owntagbox">Add your own tags, divided by here: </label>
+          <input type="text" name="owntagbox" id="owntagbox" required>
+        </div>
+        <div class="form-example">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </main>
+    
+    <footer class="navigation">
+      <nav class="navigation-container">
+        <a href="./index.html"class="navigation-link" aria-label="home">
+          <i class="fa-regular fa-heart"></i></button>
+        </a>
+        <a href="./bookmark.html"class="navigation-link" aria-label="bookmark">
+          <i class="fa-regular fa-bookmark"></i>
+        </a>
+        <a href="./input.html"class="navigation-link" aria-label="create">
+          <i class="fa-solid fa-square-plus"></i>
+        </a>
+        <a href="./profile.html" class="navigation-link"aria-label="profile">
+          <i class="fa-regular fa-user"></i>
+        </a>
+      </nav>
+    </footer>
   </body>
 </html>
