@@ -1,0 +1,53 @@
+.questionbox {
+  position: relative;
+  margin: 30px 10px 10px 10px;
+  border-width: 1px;
+  border-style: solid dotted;
+  border-color: #6d4582;
+  text-align: center;
+  background-color: #f5cc6c;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  border-style: solid;
+  border-width: 1px;
+  padding: 12px;
+}
+
+.sticky {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  font-size: 40px;
+  background-color: #f5cc6c;
+}
+
+form.form-example {
+  display: table;
+}
+
+label,
+input {
+  display: table-cell;
+  margin: 15px 0px 15px 0px;
+}
+
+label {
+  margin: 10px;
+}
+
+main {
+  margin: 15px;
+}
+
+.thatsmepicture {
+  font-size: 130px;
+}

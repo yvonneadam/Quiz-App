@@ -3,9 +3,19 @@
 }
 
 :root {
-  --basecolor: white;
+  background-color: #f5cc6c;
+  color: #6d4582;
+}
+
+body {
+  padding-bottom: 90px;
+  font-family: "Quicksand";
+}
+
+button {
+  color: #6d4582;
 }
 
 h1 {
-  color: blue;
+  color: #6d4582;
 }
