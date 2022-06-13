@@ -10,13 +10,13 @@
   background-color: #f5cc6c;
 }
 
-.navigation-container {
+.navigation__container {
   font-size: 40px;
   display: flex;
   justify-content: space-between;
 }
 
-.navigation-link {
+.navigation__link {
   color: #6d4582;
   border-right-width: 1px;
   border-right-style: solid;
@@ -24,6 +24,6 @@
   width: 100%;
 }
 
-.navigation-link:last-child {
+.navigation__link:last-child {
   border-right-width: 0px;
 }

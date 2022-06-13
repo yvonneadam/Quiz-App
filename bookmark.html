@@ -4,16 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
+    <script src="./index.js" type="module" defer></script>
     <title>Quiz App/bookmark</title>
   </head>
-  
+
   <body>
     <header>
       <h1>Bookmark</h1>
@@ -21,60 +26,66 @@
 
     <main>
       <section class="questionbox">
-        <i class="fa-solid fa-bookmark sticky"></i>
+        <i class="fa-solid fa-bookmark bookmark"></i>
         <article class="question">
           <h2>Question</h2>
+          <p>Stechen oder beißen?</p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
-            officiis perspiciatis praesentium sunt doloremque harum aut, modi
-            quod veniam iure nemo, error temporibus, id vitae? Vero accusantium
-            libero repellat sunt.
+            Hummeln können tatsächlich beißen! Aber nicht als Verteidigung gegen
+            Menschen. Die Insekten sind sehr friedfertig. Fühlen sie sich
+            bedroht, können weibliche Hummeln stechen. Anders als bei den
+            Honigbienen bleibt der Stachel aber nicht stecken. So wird in der
+            Regel weniger Gift abgegeben. Männliche Hummeln — die Drohnen —
+            haben wie bei allen Wildbienen und den Wespen keinen Stachel.
           </p>
           <button class="showanswer">SHOW ANSWER</button>
           <ul>
-            <li>tag  1</li>
-            <li>tag  2</li>
-            <li>tag  3</li>
-            <li>tag  4</li>
+            <li>tag 1</li>
+            <li>tag 2</li>
+            <li>tag 3</li>
+            <li>tag 4</li>
           </ul>
         </article>
       </section>
 
       <section class="questionbox">
-        <i class="fa-solid fa-bookmark sticky"></i>
+        <i class="fa-solid fa-bookmark bookmark"></i>
         <article class="question">
           <h2>Question</h2>
+          <p>Warum tragen Hummeln eine Glatze?</p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
-            officiis perspiciatis praesentium sunt doloremque harum aut, modi
-            quod veniam iure nemo, error temporibus, id vitae? Vero accusantium
-            libero repellat sunt.
+            Im Gegensatz zu ihren pelzigen Körpern haben manche Hummeln einen
+            kahlen Kopf. Das kommt durch enge Nesteingänge, an denen sie sich
+            die Haare abreiben. Aber auch am Rest ihres Körpers verlieren die
+            Brummer mit zunehmendem Alter ihre Haare und ihre Farbe. Das macht
+            es besonders schwer, sie genau zu bestimmen.
           </p>
           <button class="showanswer">SHOW ANSWER</button>
           <ul>
-            <li>tag  1</li>
-            <li>tag  2</li>
-            <li>tag  3</li>
-            <li>tag  4</li>
+            <li>tag 1</li>
+            <li>tag 2</li>
+            <li>tag 3</li>
+            <li>tag 4</li>
           </ul>
         </article>
       </section>
 
       <section class="questionbox">
-        <i class="fa-solid fa-bookmark sticky"></i>
+        <i class="fa-solid fa-bookmark bookmark"></i>
         <article class="question">
           <h2>Question</h2>
+          <p>Haben Hummeln etwa „Käsefüße“?</p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
-            officiis perspiciatis praesentium sunt doloremque harum aut, modi
-            quod veniam iure nemo, error temporibus, id vitae? Vero accusantium
-            libero repellat sunt.
+            Jede Hummel hat ihren ganz eigenen Fußgeruch und kann mit ihren
+            Füßen gezielt Duftmarken setzen, um Blüten als bereits bestäubt zu
+            markieren. Hummeln arbeiten also nicht nur fleißig, sondern auch
+            effektiv.
           </p>
           <button class="showanswer">SHOW ANSWER</button>
           <ul>
-            <li>tag  1</li>
-            <li>tag  2</li>
-            <li>tag  3</li>
+            <li>tag 1</li>
+            <li>tag 2</li>
+            <li>tag 3</li>
             <li>tag 4</li>
           </ul>
         </article>
@@ -82,17 +93,21 @@
     </main>
 
     <footer class="navigation">
-      <nav class="navigation-container">
-        <a href="./index.html"class="navigation-link" aria-label="home">
-          <i class="fa-regular fa-heart"></i></button>
+      <nav class="navigation__container">
+        <a href="./index.html" class="navigation__link" aria-label="home">
+          <i class="fa-regular fa-heart"></i>
         </a>
-        <a href="./bookmark.html"class="navigation-link" aria-label="bookmark">
+        <a
+          href="./bookmark.html"
+          class="navigation__link"
+          aria-label="bookmark"
+        >
           <i class="fa-solid fa-bookmark"></i>
         </a>
-        <a href="./input.html"class="navigation-link" aria-label="create">
+        <a href="./input.html" class="navigation__link" aria-label="create">
           <i class="fa-regular fa-square-plus"></i>
         </a>
-        <a href="./profile.html" class="navigation-link"aria-label="profile">
+        <a href="./profile.html" class="navigation__link" aria-label="profile">
           <i class="fa-regular fa-user"></i>
         </a>
       </nav>
